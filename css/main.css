@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Rubik:wght@300;400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin:0;
+  font-family: 'Rubik', sans-serif;
+}
+.linkedinlogo{
+  width:80px;
+  height:64px;
+}
+.text{
+  font-size:  100%;
+  font-weight: bold;
+  width: 100%;
+  margin-left: 20px;
+  text-align: justify;
+  color:#1400FF80;
+  
+}
+.text::before{
+  content:"";
+  position:absolute;
+  width:800px;
+  
+  height:800px;
+  border-radius: 50%;
+  background: #17D0EA50;
+  
+  left:-10%;
+  
+  
+  z-index:-1;
+}
+.text1{
+  font-size:  100%;
+  font-weight: bold;
+  width: 100%;
+  margin-left: 20px;
+  text-align: justify;
+  color:#1400FF80;
+  
+}
+.text1::before{
+  content:"";
+  position:absolute;
+  width:800px;
+  
+  height:800px;
+  border-radius: 50%;
+  background: #008cff50;
+  
+  left:70%;
+  
+  z-index:-1;
+}
+.text2{
+  font-size:  150%;
+  font-weight: bold;
+  width: 100%;
+  margin-left: 250px;
+  text-align: justify;
+  color:#1400FF80;
+  
+}
+.text2::before{
+  content:"";
+  position:absolute;
+  width:800px;
+  
+  height:800px;
+  border-radius: 50%;
+  background: #0084ff50;
+  
+  left:70%;
+  
+  z-index:-1;
+}
+
+.text3{
+  font-size:  150%;
+  font-weight: bold;
+  width: 100%;
+  margin-left: 250px;
+  text-align: justify;
+  color:#1400FF80;
+  
+}
+
+
+.text4{
+  font-size:  150%;
+  font-weight: bold;
+  width: 100%;
+  margin-left: 200px;
+  text-align: center;
+  color:#1400FF80;
+  
+}
+.text3::before{
+  content:"";
+  position:absolute;
+  width:800px;
+  
+  height:800px;
+  border-radius: 50%;
+  background: #17D0EA50;
+  
+  left:-10%;
+  
+  z-index:-1;
+}
+
+
+
+.sideoptions{
+  font-size: 100%;
+}
+ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+a{
+  text-decoration: none;
+}
+.welcome{
+
+  display: flex;
+  margin:0 auto;
+  
+ float: left;
+  font-size: 2em;
+  font-weight: bold;
+  color:#fff;
+  justify-content: center;
+  margin-top: 20em;
+  
+  margin:60px auto 60px;
+  
+}
+
+.nav-container{
+  background: #17B7EA;
+  
+ 
+}
+a{
+  color:white;
+}
+header{
+  /*display:flex puts content in separate box, justify content place spaces between the content*/
+  display:flex;
+  justify-content: space-between;
+  padding:2em;
+
+  
+}
+.logo{
+  color:#3300FF;
+  font-weight:bold;
+  
+}
+
+
+nav{
+  float:right;
+
+  
+
+}
+ul{
+  display:flex;
+  
+
+  
+}
+a{
+  display:block;
+  padding:0 1em;
+  font-size: 2em;
+  text-align: center;
+}
+.social-icons{
+  padding:30px;
+  float: right;
+}
+
+.hero{
+  background:#17D0EA;
+  color:white;
+  display:grid;
+  text-align: center;
+  padding: 10em;
+  
+}
+.hero .intro{
+  display: flex;
+  margin:0 auto;
+  
+
+  
+  width:20%;
+  float: left;
+  font-size: 2em;
+  font-weight: bold;
+  color:#1400FF;
+  
+  
+  margin:60px auto 60px;
+
+}
+.toppic{
+  display: flex;
+  float: right;
+  margin:0 auto;
+  
+  width: 55%;
+  font-weight: bold;
+  vertical-align: bottom;
+  
+
+
+}
+span{
+  margin-top: 1em;
+  margin-right: .5em;
+}
+
+
+section{
+  padding:4em 2em;
+}
+.projects{
+  position: relative;
+  display: flex;
+}
+.projects::before{
+  content:"";
+  position:relative;
+  width:800px;
+  
+  height:800px;
+  border-radius: 50%;
+  background: #17D0EA50;
+  top:350;
+  left:60%;
+  
+  z-index:-1;
+
+}
+
+.projects2{
+  position: relative;
+  display: flex;
+  
+}
+.projects2::before{
+  content:"";
+  position:relative;
+  width:800px;
+  height:800px;
+  border-radius: 50%;
+  background: #17D0EA50;
+  top:350;
+  right: 50;
+  left:60%;
+  z-index:-1;
+
+}
+.projects3{
+  position: relative;
+  display: flex;
+}
+.projects3::before{
+  content:"";
+  position:absolute;
+  width:600px;
+  height:600px;
+  border-radius: 50%;
+  background: #17D0EA50;
+  bottom:350;
+  left:60%;
+  z-index:-1;
+  
+}
+.subtitle{
+  text-transform: uppercase;
+  font-weight: bold;
+  color:#1400FF75;
+  letter-spacing: .2em;
+  padding: 60px;
+  font-size: 3em;
+}
+.subtitle1{
+  text-transform: uppercase;
+  font-weight: bold;
+  color:black;
+  letter-spacing: .2em;
+  padding: 60px;
+  font-size: 2em;
+}
+.title{
+  position: relative;
+  text-transform: uppercase;
+  font-weight: bold;
+  color:#1400FF;
+  letter-spacing: .2em;
+  padding: 60px;
+  font-size: 3em;
+}
+.desc{
+  color:#3B3B3B;
+  margin-bottom: 5em;
+  font-size: .9em;
+  line-height: 1.8em;
+  font-weight:  500;
+  margin:0 auto;
+  width: 200px;
+  font-weight: bold;
+  display:block;
+  font-size: 10em;
+}
+.desc::before{
+  content:"";
+  position:absolute;
+  width:600px;
+  height:600px;
+  
+  background: #17D0EA50;
+  
+  z-index:-1;
+  
+}
+.desc2{
+  color:#3B3B3B;
+  float: right;
+  margin-bottom: 3em;
+  
+  line-height: 1.8em;
+  margin:0 auto;
+  width: 200px;
+  font-weight: bold;
+  display:block;
+  font-size: 10em;
+  
+}
+.desc2::before{
+  content:"";
+  position:absolute;
+  width:600px;
+  height:600px;
+  
+  
+  background: #17D0EA50;
+  
+  z-index:-1;
+  
+}
+.contactme{
+  background:#17D0EA;
+  text-align: center;
+  font-size: .5em;
+}
+.h2{
+  text-align: center;
+}
+
+@media only screen and (min-width:800px)
+{
+  .projects,.projects2,.projects3{
+    text-align: left;
+  }
+}
+
+.Proceduralproject{
+  padding: 200px;
+}
+
+.Proceduralproject .mainWelcome{
+  position: relative;
+  text-align:  center;
+  font-size: 6em;
+  font-weight: bold;
+  font-weight: 500;
+  margin-bottom: 250px;
+  
+}
+
+.Proceduralproject .ProcTitle{
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  font-weight: 500;
+  margin-bottom: 250px;
+  padding-bottom: 20px;
+  color: #1400FF;
+}
+.Proceduralproject .ProcTitle::before{
+  content: "";
+  position: absolute;
+  width: 240px;
+  height: 3px;
+  bottom:-40px;
+  left:50%;
+  transform: translateX(-50%);
+  
+  background: #111;
+
+}
+.Proceduralproject .ProcTitle::after{
+  content: "Academic Project";
+  position: absolute;
+  color:#00e1ff;
+  
+  font-size: 20px;
+  bottom:-55px;
+  left:50%;
+  padding: 5px;
+  transform: translateX(-50%);
+  
+  background: #fff;
+
+}
+.Proceduralproject .content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  
+
+}
+.Proceduralproject .content .columnleft{
+  display: flex;
+  justify-content: center;
+  margin:0 auto 60px;
+
+}
+
+.Proceduralproject .content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  
+
+}
+.Proceduralproject .content .columnleft{
+  display: flex;
+  justify-content: center;
+  margin:0 auto 60px;
+
+}
+@media(max-width:1920px){
+
+.Proceduralproject .content .PhysxImg1{
+ 
+  height: 800px;
+  width:800px;
+  background:#00e1ff;
+
+ 
+
+}
+}
+
+
+
+.Proceduralproject .content .columnright{
+  
+  width:50%;
+  text-align: center;
+  
+
+}
+
+.Proceduralproject .content .columnright .text{
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  
+
+
+}
+.Proceduralproject .content .columnright p{
+  text-align: justify;
+  
+}
+.downloadlink{
+  display: inline-block;
+  background: cornflowerblue;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 12px 30px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid #17B7EA;
+  transition: all 0.3s ease;
+}
+.download:hover{
+  color:#17B7EA;
+  background: #3300FF;
+}
+
+.Proceduralproject .content .columnright{
+  width:50%;
+
+}
+
+
+
+
+/*# sourceMappingURL=main.css.map */
